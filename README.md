@@ -39,19 +39,17 @@ React-Router-Dom
 Tailwind CSS
 
 ### Installation
-1. Clone the repository:
+-Clone the repository:
 
-  git clone <repository-url>
+git clone repository-url
   
-  cd <repository-name>
+cd repository-name
 
-2. Install dependencies:
+-Install dependencies:
+npm install
 
-   npm install
-
-3. Running the Project
-
-   npm start
+-Running the Project
+npm start
 
 
 
