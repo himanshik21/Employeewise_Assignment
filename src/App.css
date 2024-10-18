@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-gradient{
+    background: linear-gradient(89.5deg, rgb(4, 29, 55) -0.1%, rgb(2, 67, 135) 25.1%, rgb(28, 133, 243) 49.6%, rgb(115, 181, 250) 74.5%, rgb(214, 239, 253) 99.3%);
+}
+
+.right-backgroundImg{
+    background-image: url('../public/loginpage.png');       
+}
+
+.userList-background{
+   background: linear-gradient(178.6deg, rgb(232, 245, 253) 3.3%, rgb(252, 253, 255) 109.6%);
+}
+
+.card-gradient{
+    background: radial-gradient(circle at 0.7% 1%, rgb(215, 248, 247) 0%, rgb(102, 188, 239) 100.2%);
+}
+
+.error{
+    color: rgb(208, 38, 38);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10px;
+}
+
+
+.logoutBtn{
+    background: radial-gradient(circle at 0.7% 1%, rgb(215, 248, 247) 0%, rgb(102, 188, 239) 100.2%);
+    color: black;
+    padding-block: 6px;
+    padding-inline: 12px;
+    border-radius: 5px ;
+    cursor: pointer;
+}
+.logoutBtn:hover{
+ background: linear-gradient(89.5deg, rgb(88, 156, 228) -0.1%, rgb(76, 149, 228) 25.1%, rgb(28, 133, 243) 49.6%, rgb(115, 181, 250) 74.5%, rgb(214, 239, 253) 99.3%);   
+}
