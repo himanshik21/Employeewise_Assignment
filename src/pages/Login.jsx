@@ -33,7 +33,7 @@ const Login = () => {
   return (
     <div className="h-screen grid grid-cols-1 lg:grid-cols-2 relative">
       {/* Left Side - Login Form */}
-      <div className="flex items-center justify-center p-8 background-gradient z-10 w-full lg:h-screen lg:w-auto">
+      <div className="flex items-center justify-center p-8 background-gradient z-10 w-full lg:h-screen lg:w-auto xl:h-screen xl:w-auto">
         <div className="w-full max-w-md space-y-8 bg-blue-200 p-6 rounded-lg shadow-lg">
           <h2 className="text-3xl font-bold text-blue-800 text-center">
             Login
