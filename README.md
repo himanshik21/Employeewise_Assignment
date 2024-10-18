@@ -22,6 +22,10 @@ This is a React application that integrates with the Reqres API to perform basic
 
 - Logout Functionality - I have added extra functionality by adding logout option.
 
+#### Deployment Link
+
+https://employeewise-assignment.vercel.app/
+
 ### Assumptions:
 The application uses the Reqres API for authentication and user data.
 The user must have a valid email and password to log in.
